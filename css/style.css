@@ -43,12 +43,13 @@ body {
   flex-direction: column;
   width: 375px;
   box-shadow: 0 2px 15px 0px rgba(0,0,0,0.20);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .community {
   background-color: #FFF;
   padding: 2rem 1.5rem;
-  border-radius: 8px 8px 0 0;
 }
 .community__header {
   color: var(--Cyan);
@@ -131,7 +132,7 @@ body {
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   background-color:  hsl(179, 63%, 46%);
   color: var(--LightGray);
-  border-radius: 0 0 8px 8px;
+
 }
 .why-us li {
   list-style: none;
